@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Pink Salt",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Coutinent": "Asia", "Country": "Pakistan", "City / Area": "Khewra Salt Mining", "Type": "Pink Salt", "Latitude": 33.0032, "Longitude": 73.137 }, "geometry": { "type": "Point", "coordinates": [ 73.137, 33.0032 ] } },
+{ "type": "Feature", "properties": { "Coutinent": "S America", "Country": "Bolivia", "City / Area": "蘇亞雷烏尤尼鹽沼區", "Type": "Pink Salt", "Latitude": -20.1338, "Longitude": -67.4891 }, "geometry": { "type": "Point", "coordinates": [ -67.4891, -20.1338 ] } },
+{ "type": "Feature", "properties": { "Coutinent": "Africa", "Country": "阿爾及利亞", "City / Area": "Féraoun", "Type": "Pink Salt", "Latitude": 36.2833, "Longitude": 5.5667 }, "geometry": { "type": "Point", "coordinates": [ 5.5667, 36.2833 ] } }
+]
+}

@@ -9,4 +9,3 @@ export default defineConfig({
   base: "astro-maplibre-template",
   integrations: [mdx(), sitemap(), tailwind()],
 });
-COM

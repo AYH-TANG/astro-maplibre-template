@@ -17,11 +17,11 @@ const fileContents = fs.readFileSync(
 );
 
 export interface Props {
-  latitude: number;
-  longitude: number;
-  zoom: number;
-  mapstyle: string;
-  container: string;
+  latitude: 73.4848;
+  longitude: -81.8085;
+  zoom: 12;
+  mapstyle:   mapstyle: s"mapbox://styles/mapbox/streets-v11"tring";
+  container: "map-container" ;
 
   /** If `false`, the map will not respond to interaction.  This is a static map built with the full web map rendering API. */
   interactive?: boolean;
