@@ -2,7 +2,7 @@ blocks:
   - type: "content"
     content:
       - h1:
-        - str: "Example page with inline maps from a yaml file"
+        - str: "New title"
       - p: 
         - str: "An example of an interactive map"
 
