@@ -2,9 +2,9 @@ blocks:
   - type: "content"
     content:
       - h1:
-        - str: "Visible and Invisible"
+        - str: "Salt"
       - p: 
-        - str: "The Archive of Salt"
+        - str: ": The Small Element with a Big Impact on People"
 
   - type: "map"
     content:
@@ -77,8 +77,8 @@ blocks:
       - p: 
         - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
       - img:
-        - src: "./img/fisk02.jpg"
-          alt: "image description"
+        - src: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\src\assets\img\Timeline_ Salt Industrilization"
+          alt: "An illustration depicting the cyclical process of salt formation, harvesting, refinement, and its various applications."
 
   - type: "content"
     content:
