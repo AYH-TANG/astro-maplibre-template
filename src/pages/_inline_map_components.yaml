@@ -2,9 +2,9 @@ blocks:
   - type: "content"
     content:
       - h1:
-        - str: "New title"
+        - str: "Visible and Invisible"
       - p: 
-        - str: "An example of an interactive map"
+        - str: "The Archive of Salt"
 
   - type: "map"
     content:
