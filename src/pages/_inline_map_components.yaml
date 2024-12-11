@@ -2,9 +2,9 @@ blocks:
   - type: "content"
     content:
       - h1:
-        - str: "Salt"
+        - str: "Salt: The Small Element with a Big Impact on People"
       - p: 
-        - str: ": The Small Element with a Big Impact on People"
+        - str: ": What I aim to achieve may seem modest, yet it profoundly impacts all living creatures in countless ways."
 
   - type: "map"
     content:
