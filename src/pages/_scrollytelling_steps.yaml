@@ -1,9 +1,9 @@
-- title: Salt / A Small Material with a Profound Impact on Human Life
+- title: Introduction
   center: [-74.0060, 40.7128]
-  zoom: 1
+  zoom: 10
   pitch: 0
   bearing: 0
-  description: What intrigued me to archive SALT is because it seems small, yet it impacts people and animals, even microbes countless ways. To begin with, this picture In the article "As Ice Melts, the Inuit Strive to Keep Their Culture Alive" from Discovery Magazine (September 2019), an Inuit girl is depicted collecting and drinking sea water directly, confused me intrigued me.
+  description: Welcome to the map scrollytelling app. You can set position, zoom, pitch, and bearing via the top-level props.
 
 - title: Section Title - Squirrels in Central Park
   center: [-73.96778, 40.78376]
@@ -55,5 +55,5 @@
   pitch: 30
   bearing: -10
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
-  media: "./img/tofu_pudding.jpg"
+  media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
   position: right
