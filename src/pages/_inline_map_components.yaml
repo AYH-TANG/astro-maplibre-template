@@ -70,7 +70,7 @@ blocks:
       mapstyle: "https://demotiles.maplibre.org/style.json"
       containerstyle: "width: 100%; height: 256px"
 
- - type: "content"
+  - type: "content"
     content:
       - p: 
         - str: "... and a static map from an image you have composed." 
@@ -79,4 +79,3 @@ blocks:
       - img:
         - src: "./img/timeline_salt_industrilization.jpg"
           alt: "image description"
-
