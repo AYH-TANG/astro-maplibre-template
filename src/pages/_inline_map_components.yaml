@@ -80,20 +80,3 @@ blocks:
         - src: "./img/timeline_salt_industrilization.jpg"
           alt: "image description"
 
-
-
-  - type: "content"
-    content:
-      - h2: 
-        - str: "Global and Local - An Example of  Sal and Town"
-      - p: 
-        - str: "I start the whole story from a place that somehow we can say have “no salt,” and I want to zoom in the place with abundant salt to show the local effect of salt."
-      - p: 
-        - str: "Take Qigu Salt Fields in Tainan, Taiwan as an example. The coastal areas in Tainan were among the earliest salt production sites since Han settlers arrived. During Japanese rule, salt production expanded to meet industrial needs. Though large-scale salt production ceased in the late 20th century, the salt fields have become vital wetlands, supporting rich biodiversity and attracting migratory birds. Meanwhile, salt continues to influence local culture, inspiring foods like tofu pudding and "salted watermelon."
-
-  - type: "content"
-    content:
-      - h2: 
-        - str: "Epilogue"
-      - p: 
-        - str: "Beyond its industrial value, salt serves as a bridge between ecosystems, culture, and heritage, leaving behind an enduring legacy of environmental and cultural significance."
