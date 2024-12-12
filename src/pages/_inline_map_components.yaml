@@ -4,16 +4,16 @@ blocks:
       - h1:
         - str: "Salt: A Small Material with a Profound Impact on Human Life"
       - h2:
-        -str: "**Prologue**"
-      - p: 
-        - str: "What intrigued me to archive salt is because it seems small, yet it impacts people and animals, even microbes countless ways."
+       - str: "**Prologue**"
+      -p:
+       - str: "What intrigued me to archive SALT is because it seems small, yet it impacts people and animals, even microbes countless ways. To begin with, this picture In the article "As Ice Melts, the Inuit Strive to Keep Their Culture Alive" from Discovery Magazine (September 2019), an Inuit girl is depicted collecting and drinking sea water directly, confused me intrigued me. In fact, this practice is explained by the fact that as sea ice ages, the salt sinks into the ocean, leaving fresh, drinkable water on top. The Inuit people, indigenous to the Arctic regions, didn't historically use salt for food preservation, as their diet primarily consisted of fresh or frozen meat. However, this still demonstrates the essential biological need for salt, as it remains a vital mineral for bodily functions in all human populations, regardless of dietary or preservation."
 
   - type: "map"
     content:
       container: "maplibremap"
       latitude: 40.8075803
       longitude: -73.9604192
-      zoom: 1
+      zoom: 12
       interactive: true
       mapstyle: "https://api.maptiler.com/maps/dataviz/style.json?key=WlatIY6MghFCwInJhBkl"
       containerstyle: "width: 100%; height: 70vh"
@@ -60,37 +60,14 @@ blocks:
   - type: "content"
     content:
       - p: 
-        - str: "On the other hand, this picture In the article "As Ice Melts, the Inuit Strive to Keep Their Culture Alive" from Discovery Magazine (September 2019), an Inuit girl is depicted collecting and drinking sea water directly, confused me intrigued me. "
-
-  - type: "content"
-      content:
-        - img:
-          - src: "./img/inuit girl.jpg"
-            alt: "image description"
-
-  - type: "content"
-      content:
-        - p: 
-          - str: "In fact, this practice is explained by the fact that as sea ice ages, the salt sinks into the ocean, leaving fresh, drinkable water on top. The Inuit people, indigenous to the Arctic regions, didn't historically use salt for food preservation, as their diet primarily consisted of fresh or frozen meat. However, this still demonstrates the essential biological need for salt, as it remains a vital mineral for bodily functions in all human populations, regardless of dietary or preservation."
-
-  - type: "content"
-        content:
-          - img:
-            - src: "./img/inuit Boy.jpg"
-              alt: "image description"
-  - type: "content"
-          content:
-          - p: 
-            - str: "Thus, the relationship among sea, salt and human become my topic for the atlas."
-
-
+        - str: "... and below is a static map. Note that the container ID must be unique (in the example below it is maplibremap2)."
 
   - type: "map"
     content:
       container: "maplibremap2"
       latitude: 32.795595
       longitude: -117.259191
-      zoom: 1
+      zoom: 3
       interactive: false
       mapstyle: "https://demotiles.maplibre.org/style.json"
       containerstyle: "width: 100%; height: 256px"
