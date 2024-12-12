@@ -1,39 +1,38 @@
-- title: Salt - The Small Element with a Big Impact on People
+- title: Introduction
   center: [-74.0060, 40.7128]
-  zoom: 0
+  zoom: 10
   pitch: 0
   bearing: 0
-  description: What I aim to achieve may seem modest, yet it profoundly impacts all living creatures in countless ways.
+  description: Welcome to the map scrollytelling app. You can set position, zoom, pitch, and bearing via the top-level props.
 
-- title: Where is Salt?
-  center: [-74.0060, 40.7128]
-  zoom: 0
+- title: Section Title - Squirrels in Central Park
+  center: [-73.96778, 40.78376]
+  zoom: 14
   pitch: 0
   bearing: 20
-  description: As shown in the ocean currents map, the system is interconnected. When Arctic ice melts, it turns into freshwater, which flows into the ocean in significant quantities, altering its salinity. This change in salinity can potentially disrupt the ocean current system, as ocean currents are driven by the interaction between Earth's winds and the composition of seawater.
- 
+  description: Now we zoom in. A layer is added from a geojson  Layer paint properties are passed, and layers are set to turn off when you continue scrolling via the `persist:false` attribute.
   
   layers:
   # id of layer
-  - id: 'current'
+  - id: 'squirrel-census'
   # path to dataset 
   # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/current.geojson'
+    url: './data/squirrel20241021.geojson'
   # type of symbol
-    type: 'line'
+    type: 'circle'
   # type of symbol
     data-type: 'geojson'
-    layer-type: 'line'
+    layer-type: 'circle'
     persist: true
     paint:
       circle-radius: 5
       circle-color: '#826260'
       circle-opacity: 0.8
 
-- title: Global Impact of Salt
+- title: Polygon Layer
   # center: [-73.96778, 40.78376]
   center: [-74.00739, 40.67930]
-  zoom: 0
+  zoom: 14
   pitch: 0
   bearing: 20
   description: Now we zoom to a new location. And add a polygon layer of the innundation zone from Hurricane Sandy via GeoJSON endpoint. Layer paint properties are passed (notice they are different from the syntax for the point layer). 
@@ -50,11 +49,11 @@
 
 
 
-- title: Local Tainan
-  center: [22.9833, 120.1833]
+- title: London
+  center: [-0.1278, 51.5074]
   zoom: 8
   pitch: 30
   bearing: -10
-  description: .
+  description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
   position: right

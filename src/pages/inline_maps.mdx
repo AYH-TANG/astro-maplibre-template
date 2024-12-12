@@ -5,22 +5,22 @@ import { default as MapLibre } from "@components/MapLibre.astro";
 
 /* import all images you would like to use in line here */
 
-import SaltIndustrilization from "public/img/Timeline_ Salt Industrilization.png"
+import fiskImg from "../assets/img/fisk02.jpg"
 
 
 
 <PageLayout title={SITE.title} description={SITE.description}>
 
     <Container>
-    # Salt: The Small Element with a Big Impact on People
+    # My Project
     
-    What I aim to achieve may seem modest, yet it profoundly impacts all living creatures in countless ways.
+    An example of an interactive map
     <MapLibre
         container="maplibremap"
-        latitude={23.13642}
-        longitude={120.07234}
-        zoom={1}
-        interactive="false"
+        latitude={40.8075803}
+        longitude={-73.9604192}
+        zoom={12}
+        interactive="true"
         mapstyle="https://api.maptiler.com/maps/dataviz/style.json?key=WlatIY6MghFCwInJhBkl"
         containerstyle="width: 100%; height: 50vh"
         layers={[
@@ -42,6 +42,7 @@ import SaltIndustrilization from "public/img/Timeline_ Salt Industrilization.png
         ]}
     />
 
+    ... and a static map. Note that the container ID must be unique.
 
     <MapLibre
         container="maplibremap2"
@@ -58,17 +59,14 @@ import SaltIndustrilization from "public/img/Timeline_ Salt Industrilization.png
 
     /* To add static images from a jpg or png file use the syntax below*/
     /* you must include the reference name that corresponds to the file path you have listed above */
-    <img src="...Documents\GitHub\astro-maplibre-template\public\img" alt="image description" />
+    <img src={fiskImg.src} alt="image description" />
 
-    ## Where is Salt? 
+    ## A subsection 
 
-    To highlight the importance of salt in our lives, I aim to map the locations where salt can be found and where it is produced.
+    You can go into more detail here.
 
-    <img src="...Documents\GitHub\astro-maplibre-template\public\img\Timeline_ Salt Industrilization" alt="An illustration depicting the location that people can find salt." />
-
-    ### How to use Salt? 
+    ### A further subsection
     And even more detail here.
-    <img src="...Documents\GitHub\astro-maplibre-template\public\img\Timeline_ Salt Industrilization" alt="An illustration depicting the cyclical process of salt formation, harvesting, refinement, and its various applications." />
 
     </Container>
 

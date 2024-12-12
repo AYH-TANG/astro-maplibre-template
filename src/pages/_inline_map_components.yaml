@@ -2,128 +2,96 @@ blocks:
   - type: "content"
     content:
       - h1:
-        - str: "Salt: The Small Element with a Big Impact on People"
+        - str: "Example page with inline maps from a yaml file"
       - p: 
-        - str: ": What I aim to achieve may seem modest, yet it profoundly impacts all living creatures in countless ways."
+        - str: "An example of an interactive map"
 
   - type: "map"
     content:
       container: "maplibremap"
       latitude: 40.8075803
       longitude: -73.9604192
-      zoom: 0
+      zoom: 12
       interactive: true
       mapstyle: "https://api.maptiler.com/maps/dataviz/style.json?key=WlatIY6MghFCwInJhBkl"
       containerstyle: "width: 100%; height: 70vh"
       layers:
-          - id: "current"
-          url: "https://reurl.cc/geZD6L"
+        - id: "pizza"
+          url: "https://data.cityofnewyork.us/resource/43nn-pn8j.geojson?cuisine_description=Pizza&$limit=10000"
+          data-type: "geojson"
+          layer-type: "circle"
+          paint:
+            circle-color: "#ff0000"
+            circle-radius: 5
+          mouseEvent:
+            - type: "click"
+              content:
+                - h2:
+                  - str: "Feature Info"
+                - p:
+                  - str: "Description of feature"
+                - p:
+                  - str: "NTA Attribute: "
+                  - property: "dba"
+                    else: "N/A"
+                  - str: " in CD "
+                  - property: "nta"
+                    else: "N/A"
+                - a:
+                  - href: "https://example.com"
+                    text: "Learn more about this feature"
+                - img:
+                  - src: "https://www.seriouseats.com/thmb/-_mziT2tl0F63I4kfji4S6bE-cA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__10__20181015-state-of-slice-delmar-clay-williams-2de043fa5a0d4475b6c567e4a974b13b.jpg"
+                    alt: "Feature image"
+          toggle: true
+          visible: true
+        - id: "bikes"
+          url: "https://data.cityofnewyork.us/resource/mzxg-pwib.geojson?$limit=10000"
           data-type: "geojson"
           layer-type: "line"
           paint:
             line-color: "#000000"
             line-width: 3
           toggle: true
-          visible: true
+          visible: false
 
   - type: "content"
     content:
       - p: 
-        - str: "And below is a static map, which shows the different types of salt that we can find in different area around the world."
+        - str: "... and below is a static map. Note that the container ID must be unique (in the example below it is maplibremap2)."
 
   - type: "map"
     content:
       container: "maplibremap2"
-      latitude: 40.8075803
-      longitude: -73.960419
-      zoom: 0
+      latitude: 32.795595
+      longitude: -117.259191
+      zoom: 3
       interactive: false
       mapstyle: "https://demotiles.maplibre.org/style.json"
       containerstyle: "width: 100%; height: 256px"
-      layers:
-      - id: "Pink Salt"
-          url: "https://reurl.cc/V08LWZ"
-          data-type: "geojson"
-          layer-type: "circle"
-          paint:
-            circle-color: "#000000"
-            circle-width: 3
-          toggle: false
-          visible: true
-
-        - id: "Sel de Gris"
-        url: "https://reurl.cc/XZLEaR"
-        data-type: "geojson"
-        layer-type: "circle"
-        paint:
-          circle-color: "#000000"
-          circle-width: 3
-        toggle: false
-        visible: true
-
-        - id: "Alaska flake sea salt"
-        url: "https://reurl.cc/V08Lz5"
-        data-type: "geojson"
-        layer-type: "circle"
-        paint:
-          circle-color: "#000000"
-          circle-width: 3
-        toggle: false
-        visible: true
-
-        - id: "Black Lava Salt"
-        url: "https://reurl.cc/Nbq0lQ"
-        data-type: "geojson"
-        layer-type: "circle"
-        paint:
-          circle-color: "#000000"
-          circle-width: 3
-        toggle: false
-        visible: true
-
-        - id: "Kala namak"
-        url: "https://reurl.cc/mRlDR7"
-        data-type: "geojson"
-        layer-type: "circle"
-        paint:
-          circle-color: "#000000"
-          circle-width: 3
-        toggle: false
-        visible: true
-
-        - id: "Kona deep water sea salt"
-        url: "https://reurl.cc/46QoL3"
-        data-type: "geojson"
-        layer-type: "circle"
-        paint:
-          circle-color: "#000000"
-          circle-width: 3
-        toggle: false
-        visible: true
-
-        - id: "New Zealand Lake Grassmere salt"
-        url: "https://reurl.cc/mRlDx1"
-        data-type: "geojson"
-        layer-type: "circle"
-        paint:
-          circle-color: "#000000"
-          circle-width: 3
-        toggle: false
-        visible: true
 
   - type: "content"
     content:
       - p: 
-        - str: "Not only the salt types are vaaried, but also the usages are diverse around the worlds." 
+        - str: "... and a static map from an image you have composed." 
       - p: 
-        - str: "The picture shows whole circulation of salt, from forming to using."
+        - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
       - img:
-        - src: "...Documents\GitHub\astro-maplibre-template\public\img\Timeline_ Salt Industrilization"
-          alt: "An illustration depicting the cyclical process of salt formation, harvesting, refinement, and its various applications."
+        - src: "./img/fisk02.jpg"
+          alt: "image description"
+
+  - type: "content"
+    content:
+      - h2: 
+        - str: "A subsection"
+      - p: 
+        - str: "You can go into more detail here."
+      - p: 
+        - str: "To start a new paragraph you must insert a new p section as shown here. "
 
   - type: "content"
     content:
       - h3: 
-        - str: "An Example of Salt and Town"
+        - str: "A further subsection"
       - p: 
-        - str: "Take Qigu Salt Fields in Taiwan as an example. The coastal areas were among the earliest salt production sites since Han settlers arrived. During Japanese rule, salt production expanded to meet industrial needs. Though large-scale salt production ceased in the late 20th century, the salt fields have become vital wetlands, supporting rich biodiversity and attracting migratory birds. Meanwhile, salt continues to influence local culture, inspiring foods like tofu pudding and "salted watermelon." Beyond its industrial value, salt serves as a bridge between ecosystems, culture, and heritage, leaving behind an enduring legacy of environmental and cultural significance."
+        - str: "And even more detail here."
