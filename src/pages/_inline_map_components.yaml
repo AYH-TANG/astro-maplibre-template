@@ -70,6 +70,14 @@ blocks:
         circle-width: 3
       toggle: false
       visible: true
+        {
+  "type": "FeatureCollection",
+  "name": "Alaska flake sea salt ",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+  { "type": "Feature", "properties": { "Coutinent": "N America", "Country": "United States", "City / Area": "Alaska", "Type": "Kona deep water sea salt ", "Latitude": 64.2008, "Longitude": -149.4937 }, "geometry": { "type": "Point", "coordinates": [ -149.4937, 64.2008 ] } }
+  ]
+  }
 
       - id: "Black Lava Salt"
       url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Black Lava Salt"
@@ -102,7 +110,7 @@ blocks:
       visible: true
 
       - id: "New Zealand Lake Grassmere salt"
-      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kona deep water sea salt"
+      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\New Zealand Lake Grassmere salt"
       data-type: "geojson"
       layer-type: "circle"
       paint:
@@ -120,15 +128,6 @@ blocks:
       - img:
         - src: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\src\assets\img\Timeline_ Salt Industrilization"
           alt: "An illustration depicting the cyclical process of salt formation, harvesting, refinement, and its various applications."
-
-  - type: "content"
-    content:
-      - h2: 
-        - str: "A subsection"
-      - p: 
-        - str: "You can go into more detail here."
-      - p: 
-        - str: "To start a new paragraph you must insert a new p section as shown here. "
 
   - type: "content"
     content:

@@ -5,8 +5,8 @@
   bearing: 0
   description: What I aim to achieve may seem modest, yet it profoundly impacts all living creatures in countless ways.
 
-- title: Global and Local
-  center: [-73.96778, 40.78376]
+- title: Where is Salt?
+  center: [-74.0060, 40.7128]
   zoom: 0
   pitch: 0
   bearing: 20
@@ -30,10 +30,10 @@
       circle-color: '#826260'
       circle-opacity: 0.8
 
-- title: Polygon Layer
+- title: Global Impact of Salt
   # center: [-73.96778, 40.78376]
   center: [-74.00739, 40.67930]
-  zoom: 14
+  zoom: 0
   pitch: 0
   bearing: 20
   description: Now we zoom to a new location. And add a polygon layer of the innundation zone from Hurricane Sandy via GeoJSON endpoint. Layer paint properties are passed (notice they are different from the syntax for the point layer). 
@@ -50,11 +50,11 @@
 
 
 
-- title: London
-  center: [-0.1278, 51.5074]
+- title: Local Tainan
+  center: [22.9833, 120.1833]
   zoom: 8
   pitch: 30
   bearing: -10
-  description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
+  description: .
   media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
   position: right

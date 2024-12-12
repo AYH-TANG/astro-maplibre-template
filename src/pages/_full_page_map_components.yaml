@@ -60,4 +60,135 @@
             - str: "Name: "
             - property: "dba"
               else: "N/A"
+          
+- id: 'Pink Salt'
+  label: 'Pink Salt'
+  toggle: true
+  visible: true
+  data-type: 'geojson'
+  layer-type: 'circle'
+  url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Pink Salt'
+  paint:
+    circle-color: '#ff0000'
+    circle-radius: 5
+  mouseEvent:
+    - type: "click"
+      content:
+        - h1:
+            - str: "Feature Info"
+        - p:
+            - str: "Description"
+        - p:
+            - str: "Name: "
+            - property: "dba"
+              else: "N/A"
 
+- id: 'Sel de Gris'
+  label: 'Sel de Gris'
+  toggle: true
+  visible: true
+  data-type: 'geojson'
+  layer-type: 'circle'
+  url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Sel de Gris'
+  paint:
+    circle-color: '#ff0000'
+    circle-radius: 5
+  mouseEvent:
+    - type: "click"
+      content:
+        - h1:
+            - str: "Feature Info"
+        - p:
+            - str: "Description"
+        - p:
+            - str: "Name: "
+            - property: "dba"
+              else: "N/A"
+
+- id: 'Alaska flake sea salt'
+label: 'Alaska flake sea salt'
+toggle: true
+visible: true
+data-type: 'geojson'
+layer-type: 'circle'
+url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Alaska flake sea salt'
+paint:
+  circle-color: '#ff0000'
+  circle-radius: 5
+mouseEvent:
+  - type: "click"
+    content:
+      - h1:
+          - str: "Feature Info"
+      - p:
+          - str: "Description"
+      - p:
+          - str: "Name: "
+          - property: "dba"
+            else: "N/A"  
+                
+- id: 'Black Lava Salt'
+label: 'Black Lava Salt'
+toggle: true
+visible: true
+data-type: 'geojson'
+layer-type: 'circle'
+url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Black Lava Salt'
+paint:
+  circle-color: '#ff0000'
+  circle-radius: 5
+mouseEvent:
+  - type: "click"
+    content:
+      - h1:
+          - str: "Feature Info"
+      - p:
+          - str: "Description"
+      - p:
+          - str: "Name: "
+          - property: "dba"
+            else: "N/A"  
+
+- id: 'Kala namak (Himalaya Balack Salt)'
+label: 'Kala namak (Himalaya Balack Salt)'
+toggle: true
+visible: true
+data-type: 'geojson'
+layer-type: 'circle'
+url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kala namak (Himalaya Balack Salt)'
+paint:
+  circle-color: '#ff0000'
+  circle-radius: 5
+mouseEvent:
+  - type: "click"
+    content:
+      - h1:
+          - str: "Feature Info"
+      - p:
+          - str: "Description"
+      - p:
+          - str: "Name: "
+          - property: "dba"
+            else: "N/A"
+
+- id: 'Kona deep water sea salt'
+label: 'Kona deep water sea salt'
+toggle: true
+visible: true
+data-type: 'geojson'
+layer-type: 'circle'
+url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kala namak (Himalaya Balack Salt)'
+paint:
+  circle-color: '#ff0000'
+  circle-radius: 5
+mouseEvent:
+  - type: "click"
+    content:
+      - h1:
+          - str: "Feature Info"
+      - p:
+          - str: "Description"
+      - p:
+          - str: "Name: "
+          - property: "dba"
+            else: "N/A"           
