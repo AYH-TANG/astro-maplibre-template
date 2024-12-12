@@ -57,8 +57,32 @@ blocks:
 
   - type: "content"
     content:
+      - h2:
+        - str: "Prologue"
       - p: 
-        - str: "... and below is a static map. Note that the container ID must be unique (in the example below it is maplibremap2)."
+        - str: "The picture comes from the article "As Ice Melts, the Inuit Strive to Keep Their Culture Alive" from Discovery Magazine (September 2019), an Inuit girl is depicted collecting and drinking sea water directly, confused me intrigued me."
+
+  - type: "content"
+    content:
+      - img:
+        - src: "./img/inuit girl.jpg"
+          alt: "As Ice Melts, the Inuit Strive to Keep Their Culture Alive,Discovery Magazine, 2019"
+
+  - type: "content"
+    content:
+      - p: 
+        - str: "In fact, this practice is explained by the fact that as sea ice ages, the salt sinks into the ocean, leaving fresh, drinkable water on top. The Inuit people, indigenous to the Arctic regions, didn't historically use salt for food preservation, as their diet primarily consisted of fresh or frozen meat. However, this still demonstrates the essential biological need for salt, as it remains a vital mineral for bodily functions in all human populations, regardless of dietary or preservation."
+
+  - type: "content"
+    content:
+      - img:
+        - src: "./img/Inuit Boy.jpg"
+          alt: "Eating raw fish in Arctic area"
+
+  - type: "content"
+    content:
+      - p: 
+        - str: "Thus, the relationship among sea, salt and human become my topic for the atlas."
 
   - type: "map"
     content:
