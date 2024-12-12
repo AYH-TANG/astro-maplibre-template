@@ -118,7 +118,7 @@ blocks:
       - p: 
         - str: "The picture shows whole circulation of salt, from forming to using."
       - img:
-        - src: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\src\assets\img\Timeline_ Salt Industrilization"
+        - src: "https://reurl.cc/O5VvQy"
           alt: "An illustration depicting the cyclical process of salt formation, harvesting, refinement, and its various applications."
 
   - type: "content"
