@@ -83,15 +83,15 @@ blocks:
   - type: "content"
     content:
       - h2: 
-        - str: "A subsection"
+        - str: "Global and Local - An Example of  Sal and Town"
       - p: 
-        - str: "You can go into more detail here."
+        - str: "I start the whole story from a place that somehow we can say have “no salt,” and I want to zoom in the place with abundant salt to show the local effect of salt."
       - p: 
-        - str: "To start a new paragraph you must insert a new p section as shown here. "
+        - str: "Take Qigu Salt Fields in Tainan, Taiwan as an example. The coastal areas in Tainan were among the earliest salt production sites since Han settlers arrived. During Japanese rule, salt production expanded to meet industrial needs. Though large-scale salt production ceased in the late 20th century, the salt fields have become vital wetlands, supporting rich biodiversity and attracting migratory birds. Meanwhile, salt continues to influence local culture, inspiring foods like tofu pudding and "salted watermelon."
 
   - type: "content"
     content:
-      - h3: 
-        - str: "A further subsection"
+      - h2: 
+        - str: "Epilogue"
       - p: 
-        - str: "And even more detail here."
+        - str: "Beyond its industrial value, salt serves as a bridge between ecosystems, culture, and heritage, leaving behind an enduring legacy of environmental and cultural significance."
