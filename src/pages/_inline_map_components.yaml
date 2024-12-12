@@ -11,13 +11,13 @@ blocks:
       container: "maplibremap"
       latitude: 40.8075803
       longitude: -73.9604192
-      zoom: 1
+      zoom: 0
       interactive: true
       mapstyle: "https://api.maptiler.com/maps/dataviz/style.json?key=WlatIY6MghFCwInJhBkl"
       containerstyle: "width: 100%; height: 70vh"
       layers:
           - id: "current"
-          url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\current"
+          url: "https://reurl.cc/geZD6L"
           data-type: "geojson"
           layer-type: "line"
           paint:
@@ -34,15 +34,15 @@ blocks:
   - type: "map"
     content:
       container: "maplibremap2"
-      latitude: 32.795595
-      longitude: -117.259191
-      zoom: 3
+      latitude: 40.8075803
+      longitude: -73.960419
+      zoom: 0
       interactive: false
       mapstyle: "https://demotiles.maplibre.org/style.json"
       containerstyle: "width: 100%; height: 256px"
       layers:
       - id: "Pink Salt"
-          url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Pink Salt"
+          url: "https://reurl.cc/V08LWZ"
           data-type: "geojson"
           layer-type: "circle"
           paint:
@@ -52,7 +52,7 @@ blocks:
           visible: true
 
         - id: "Sel de Gris"
-        url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Sel de Gris"
+        url: "https://reurl.cc/XZLEaR"
         data-type: "geojson"
         layer-type: "circle"
         paint:
@@ -62,7 +62,7 @@ blocks:
         visible: true
 
       - id: "Alaska flake sea salt"
-      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Alaska flake sea salt"
+      url: "https://reurl.cc/V08Lz5"
       data-type: "geojson"
       layer-type: "circle"
       paint:
@@ -70,17 +70,9 @@ blocks:
         circle-width: 3
       toggle: false
       visible: true
-        {
-  "type": "FeatureCollection",
-  "name": "Alaska flake sea salt ",
-  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-  "features": [
-  { "type": "Feature", "properties": { "Coutinent": "N America", "Country": "United States", "City / Area": "Alaska", "Type": "Kona deep water sea salt ", "Latitude": 64.2008, "Longitude": -149.4937 }, "geometry": { "type": "Point", "coordinates": [ -149.4937, 64.2008 ] } }
-  ]
-  }
 
       - id: "Black Lava Salt"
-      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Black Lava Salt"
+      url: "https://reurl.cc/Nbq0lQ"
       data-type: "geojson"
       layer-type: "circle"
       paint:
@@ -90,7 +82,7 @@ blocks:
       visible: true
 
       - id: "Kala namak (Himalaya Balack Salt)"
-      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kala namak (Himalaya Balack Salt)"
+      url: "https://reurl.cc/mRlDR7"
       data-type: "geojson"
       layer-type: "circle"
       paint:
@@ -100,7 +92,7 @@ blocks:
       visible: true
 
       - id: "Kona deep water sea salt"
-      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kona deep water sea salt"
+      url: "https://reurl.cc/46QoL3"
       data-type: "geojson"
       layer-type: "circle"
       paint:
@@ -110,7 +102,7 @@ blocks:
       visible: true
 
       - id: "New Zealand Lake Grassmere salt"
-      url: "C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\New Zealand Lake Grassmere salt"
+      url: "https://reurl.cc/mRlDx1"
       data-type: "geojson"
       layer-type: "circle"
       paint:
