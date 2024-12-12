@@ -41,7 +41,7 @@ blocks:
       mapstyle: "https://demotiles.maplibre.org/style.json"
       containerstyle: "width: 100%; height: 256px"
       layers:
-      - id: "Pink_Salt"
+      - id: "Pink Salt"
           url: "https://reurl.cc/V08LWZ"
           data-type: "geojson"
           layer-type: "circle"
@@ -51,7 +51,7 @@ blocks:
           toggle: false
           visible: true
 
-        - id: "Sel_de_Gris"
+        - id: "Sel de Gris"
         url: "https://reurl.cc/XZLEaR"
         data-type: "geojson"
         layer-type: "circle"
@@ -61,55 +61,55 @@ blocks:
         toggle: false
         visible: true
 
-      - id: "Alaska_flake_sea_salt"
-      url: "https://reurl.cc/V08Lz5"
-      data-type: "geojson"
-      layer-type: "circle"
-      paint:
-        circle-color: "#000000"
-        circle-width: 3
-      toggle: false
-      visible: true
+        - id: "Alaska flake sea salt"
+        url: "https://reurl.cc/V08Lz5"
+        data-type: "geojson"
+        layer-type: "circle"
+        paint:
+          circle-color: "#000000"
+          circle-width: 3
+        toggle: false
+        visible: true
 
-      - id: "Black_Lava_Salt"
-      url: "https://reurl.cc/Nbq0lQ"
-      data-type: "geojson"
-      layer-type: "circle"
-      paint:
-        circle-color: "#000000"
-        circle-width: 3
-      toggle: false
-      visible: true
+        - id: "Black Lava Salt"
+        url: "https://reurl.cc/Nbq0lQ"
+        data-type: "geojson"
+        layer-type: "circle"
+        paint:
+          circle-color: "#000000"
+          circle-width: 3
+        toggle: false
+        visible: true
 
-      - id: "Kala_namak"
-      url: "https://reurl.cc/mRlDR7"
-      data-type: "geojson"
-      layer-type: "circle"
-      paint:
-        circle-color: "#000000"
-        circle-width: 3
-      toggle: false
-      visible: true
+        - id: "Kala namak"
+        url: "https://reurl.cc/mRlDR7"
+        data-type: "geojson"
+        layer-type: "circle"
+        paint:
+          circle-color: "#000000"
+          circle-width: 3
+        toggle: false
+        visible: true
 
-      - id: "Kona_deep_water_sea_salt"
-      url: "https://reurl.cc/46QoL3"
-      data-type: "geojson"
-      layer-type: "circle"
-      paint:
-        circle-color: "#000000"
-        circle-width: 3
-      toggle: false
-      visible: true
+        - id: "Kona deep water sea salt"
+        url: "https://reurl.cc/46QoL3"
+        data-type: "geojson"
+        layer-type: "circle"
+        paint:
+          circle-color: "#000000"
+          circle-width: 3
+        toggle: false
+        visible: true
 
-      - id: "New_Zealand_Lake_Grassmere_salt"
-      url: "https://reurl.cc/mRlDx1"
-      data-type: "geojson"
-      layer-type: "circle"
-      paint:
-        circle-color: "#000000"
-        circle-width: 3
-      toggle: false
-      visible: true
+        - id: "New Zealand Lake Grassmere salt"
+        url: "https://reurl.cc/mRlDx1"
+        data-type: "geojson"
+        layer-type: "circle"
+        paint:
+          circle-color: "#000000"
+          circle-width: 3
+        toggle: false
+        visible: true
 
   - type: "content"
     content:
