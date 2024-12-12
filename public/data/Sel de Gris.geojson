@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Sel de Gris",
+"features": [
+{ "type": "Feature", "properties": { "Countinent": "Europe", "Country": "France", "Location": "Sel gris de Guerande", "Latitude": 47.3458, "Longitude": -2.4283 }, "geometry": { "type": "Point", "coordinates": [ 47.3458, -2.4283 ] } },
+{ "type": "Feature", "properties": { "Countinent": "Europe", "Country": "France", "Location": "Sel gris de l'Île de Ré", "Latitude": 46.1896, "Longitude": -1.4207 }, "geometry": { "type": "Point", "coordinates": [ 46.1896, -1.4207 ] } },
+{ "type": "Feature", "properties": { "Countinent": "Europe", "Country": "France", "Location": "Sel gris de l'Île de Noirmoutier", "Latitude": 46.9901, "Longitude": -2.2617 }, "geometry": { "type": "Point", "coordinates": [ 46.9901, -2.2617 ] } },
+{ "type": "Feature", "properties": { "Countinent": "Europe", "Country": "Italy", "Location": "Grigio di Cervia", "Latitude": 44.2606, "Longitude": 12.349 }, "geometry": { "type": "Point", "coordinates": [ 44.2606, 12.349 ] } },
+{ "type": "Feature", "properties": { "Countinent": "Europe", "Country": "Portugal", "Location": "Alcochete sal grosso", "Latitude": 38.7539, "Longitude": -8.976 }, "geometry": { "type": "Point", "coordinates": [ 38.7539, -8.976 ] } }
+]
+}
