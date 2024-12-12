@@ -67,7 +67,7 @@
   visible: true
   data-type: 'geojson'
   layer-type: 'circle'
-  url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Pink Salt'
+  url: 'https://github.com/AYH-TANG/astro-maplibre-template/blob/main/public/data/Pink%20Salt.geojson'
   paint:
     circle-color: '#ff0000'
     circle-radius: 5
@@ -111,7 +111,7 @@ toggle: true
 visible: true
 data-type: 'geojson'
 layer-type: 'circle'
-url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Alaska flake sea salt'
+url: 'https://github.com/AYH-TANG/astro-maplibre-template/blob/main/public/data/Alaska%20flake%20sea%20salt%20.geojson'
 paint:
   circle-color: '#ff0000'
   circle-radius: 5
@@ -133,7 +133,7 @@ toggle: true
 visible: true
 data-type: 'geojson'
 layer-type: 'circle'
-url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Black Lava Salt'
+url: 'https://github.com/AYH-TANG/astro-maplibre-template/blob/main/public/data/Black%20Lava%20Salt.geojson'
 paint:
   circle-color: '#ff0000'
   circle-radius: 5
@@ -155,7 +155,7 @@ toggle: true
 visible: true
 data-type: 'geojson'
 layer-type: 'circle'
-url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kala namak (Himalaya Balack Salt)'
+url: 'https://github.com/AYH-TANG/astro-maplibre-template/blob/main/public/data/Kala%20namak%20(Himalaya%20Balack%20Salt).geojson'
 paint:
   circle-color: '#ff0000'
   circle-radius: 5
@@ -177,7 +177,7 @@ toggle: true
 visible: true
 data-type: 'geojson'
 layer-type: 'circle'
-url: 'C:\Users\sweet\Documents\GitHub\astro-maplibre-template\public\data\Kala namak (Himalaya Balack Salt)'
+url: 'https://github.com/AYH-TANG/astro-maplibre-template/blob/main/public/data/Kona%20deep%20water%20sea%20salt%20.geojson'
 paint:
   circle-color: '#ff0000'
   circle-radius: 5
@@ -191,4 +191,26 @@ mouseEvent:
       - p:
           - str: "Name: "
           - property: "dba"
-            else: "N/A"           
+            else: "N/A"     
+            
+- id: 'New Zealand Lake Grassmere'
+label: 'New Zealand Lake Grassmere'
+toggle: true
+visible: true
+data-type: 'geojson'
+layer-type: 'circle'
+url: 'https://github.com/AYH-TANG/astro-maplibre-template/blob/main/public/data/New%20Zealand%20Lake%20Grassmere%20salt.geojson'
+paint:
+  circle-color: '#ff0000'
+  circle-radius: 5
+mouseEvent:
+  - type: "click"
+    content:
+      - h1:
+          - str: "Feature Info"
+      - p:
+          - str: "Description"
+      - p:
+          - str: "Name: "
+          - property: "dba"
+            else: "N/A"        
