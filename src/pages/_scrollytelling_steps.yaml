@@ -1,28 +1,29 @@
-- title: Salt: The Small Element with a Big Impact on People
+- title: Salt - The Small Element with a Big Impact on People
   center: [-74.0060, 40.7128]
-  zoom: 10
+  zoom: 0
   pitch: 0
   bearing: 0
   description: What I aim to achieve may seem modest, yet it profoundly impacts all living creatures in countless ways.
 
-- title: Section Title - Squirrels in Central Park
+- title: Global and Local
   center: [-73.96778, 40.78376]
-  zoom: 14
+  zoom: 0
   pitch: 0
   bearing: 20
-  description: Now we zoom in. A layer is added from a geojson  Layer paint properties are passed, and layers are set to turn off when you continue scrolling via the `persist:false` attribute.
+  description: As shown in the ocean currents map, the system is interconnected. When Arctic ice melts, it turns into freshwater, which flows into the ocean in significant quantities, altering its salinity. This change in salinity can potentially disrupt the ocean current system, as ocean currents are driven by the interaction between Earth's winds and the composition of seawater.
+ 
   
   layers:
   # id of layer
-  - id: 'squirrel-census'
+  - id: 'current'
   # path to dataset 
   # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/squirrel20241021.geojson'
+    url: './data/current.geojson'
   # type of symbol
-    type: 'circle'
+    type: 'line'
   # type of symbol
     data-type: 'geojson'
-    layer-type: 'circle'
+    layer-type: 'line'
     persist: true
     paint:
       circle-radius: 5
