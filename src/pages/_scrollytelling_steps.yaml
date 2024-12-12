@@ -1,9 +1,9 @@
-- title: Salt / A Small Material with a Profound Impact on Human Life
+- title: Introduction
   center: [-74.0060, 40.7128]
-  zoom: 1
+  zoom: 10
   pitch: 0
   bearing: 0
-  description: What intrigued me to archive salt is because it seems small, yet it impacts people and animals, even microbes countless ways.
+  description: Welcome to the map scrollytelling app. You can set position, zoom, pitch, and bearing via the top-level props.
 
 - title: Section Title - Squirrels in Central Park
   center: [-73.96778, 40.78376]
