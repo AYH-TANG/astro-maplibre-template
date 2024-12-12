@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Kona deep water sea salt ",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Coutinent": "N America", "Country": "United States", "City / Area": "Kona, Hawaii", "Type": "Kona deep water sea salt ", "Latitude": 19.6392, "Longitude": -155.995 }, "geometry": { "type": "Point", "coordinates": [ -155.995, 19.6392 ] } }
+]
+}

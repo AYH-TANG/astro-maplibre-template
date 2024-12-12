@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Black Lava Salt",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Coutinent": "N America", "Country": "United States", "City / Area": "Hawaii", "Type": "Black Lava Salt", "Latitude": 21.3069, "Longitude": -157.858 }, "geometry": { "type": "Point", "coordinates": [ -157.858, 21.3069 ] } },
+{ "type": "Feature", "properties": { "Coutinent": "Europe", "Country": "Italy", "City / Area": "Cyprus", "Type": "Black Lava Salt", "Latitude": 35.1264, "Longitude": 33.4299 }, "geometry": { "type": "Point", "coordinates": [ 33.4299, 35.1264 ] } }
+]
+}
