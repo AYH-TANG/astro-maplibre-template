@@ -70,15 +70,17 @@ blocks:
       mapstyle: "https://demotiles.maplibre.org/style.json"
       containerstyle: "width: 100%; height: 256px"
 
-  - type: "content"
+ - type: "content"
     content:
       - p: 
         - str: "... and a static map from an image you have composed." 
       - p: 
         - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
       - img:
-        - src: "./img/timeline_salt_industrilization.jpg"
+        - src: "./img/fisk02.jpg"
           alt: "image description"
+
+
 
   - type: "content"
     content:
