@@ -3,10 +3,63 @@ import PageLayout from "@layouts/PageLayout.astro";
 import { SITE } from "@consts";
 import { default as InlineContent } from "@components/InlineMaps.astro";
 
+/* import all images you would like to use in line here */
+
+import timeline_salt_industrilization from "../assets/img/timeline_salt_industrilization.jpg"
+import salt from "../assets/img/salt.jpg"
+import inuit_girl from "../assets/img/inuit_girl.jpg"
+import current_and_cities from "../assets/img/current_and_cities.jpg"
+import special_salt from "../assets/img/special_salt.jpg"
+import salt_landscape_water from "../assets/img/salt_landscape_water.jpg"
+import salt_landscape_land from "../assets/img/salt_landscape_land.jpg"
+import production_and_selling from "../assets/img/production_and_selling.jpg"
+import chigu from "../assets/img/chigu.jpg"
+import _inuit_boy from "../assets/img/_inuit_boy.jpg"
+import tofu_pudding from "../assets/img/tofu_pudding.jpg"
+import watermelon from "../assets/img/watermelon.jpg"
+
 <PageLayout title={SITE.title} description={SITE.description}>
 
     <Container>
+    # Salt: A Small Material with a Profound Impact on Human Life
+    <img src={salt.src} alt="image description" />
+    What intrigued me to archive SALT is because it seems small, yet it impacts people and animals, even microbes countless ways. 
+    
+
+    ## **Prologue**
+    To begin with, this picture In the article "As Ice Melts, the Inuit Strive to Keep Their Culture Alive" from Discovery Magazine (September 2019), an Inuit girl is depicted collecting and drinking sea water directly, confused me intrigued me. In fact, this practice is explained by the fact that as sea ice ages, the salt sinks into the ocean, leaving fresh, drinkable water on top.
+    The Inuit people, indigenous to the Arctic regions, didn't historically use salt for food preservation, as their diet primarily consisted of fresh or frozen meat. However, this still demonstrates the essential biological need for salt, as it remains a vital mineral for bodily functions in all human populations, regardless of dietary or preservation.
+    <img src={inuit_girl.src} alt="image description" />
+    "As Ice Melts, the Inuit Strive to Keep Their Culture Alive" from Discovery Magazine, September, 2019.
+    <img src={_inuit_boy.src} alt="image description" />
+    An Inuit boy is eating fish.
+    <img src={current_and_cities.src} alt="image description" />
+    Currents and Cities
+
+    ## **Visible and Invisible - Where is Salt?**
+    <img src={salt_landscape_land.src} alt="Waters and Terrains of Salt: Salt Dome, Salt Flat and Salt Glacier" />
+    Waters and Terrains of Salt: Salt Dome, Salt Flat and Salt Glacier
+    <img src={salt_landscape_water.src} alt="Waters and Terrains of Salt: Salt Mash and Salt Lake" />
+    Waters and Terrains of Salt: Salt Mash and Salt Lake
         <InlineContent />
+
+    ## **Simple and Diverse - How to Use Salt?**
+    <img src={production_and_selling.src} alt="image description" />
+    The Production and Trading of Salt.
+    <img src={timeline_salt_industrilization.src} alt="image description" />
+
+    ## **Global and Local - An Example of Salt and Town**
+    I start the whole story from a place that somehow we can say have “no salt,” and I want to zoom in the place with abundant salt to show the local effect of salt. 
+    <img src={chigu.src} alt="image description" />
+    Take Qigu Salt Fields in Tainan, Taiwan as an example. The coastal areas in Tainan were among the earliest salt production sites since Han settlers arrived. During Japanese rule, salt production expanded to meet industrial needs. Though large-scale salt production ceased in the late 20th century, the salt fields have become vital wetlands, supporting rich biodiversity and attracting migratory birds.
+    Meanwhile, salt continues to influence local culture, inspiring foods like tofu pudding and "salted watermelon."
+    <img src={watermelon.src} alt="image description" />
+    Pickled goods - Watermelon Pulp
+    <img src={tofu_pudding.src} alt="image description" />
+    Dessert - Tofu Pudding
+
+    ## **Epilogue**
+    Beyond its industrial value, salt serves as a bridge between ecosystems, culture, and heritage, leaving behind an enduring legacy of environmental and cultural significance.
     </Container>
 
 </PageLayout>
